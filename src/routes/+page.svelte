@@ -2,6 +2,7 @@
 	import Modal from '$lib/components/Modal.svelte';
 	import { Confetti } from 'svelte-confetti';
 	import Costume from '$lib/components/Costume.svelte';
+	import Background from '$lib/assets/Background.png';
 	let modalOpener = $state(false);
 	let showConfetti = $state(false);
 	let costume = $state('');
@@ -10,7 +11,7 @@
 </script>
 
 <div class="TopLevel">
-	<img src="/Background.png" alt="Background" class="Images" />
+	<img src={Background} alt="Background" class="Images" />
 	{#if showConfetti}
 		<div
 			style="
