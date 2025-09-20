@@ -66,7 +66,7 @@
 		font-size: 1.5rem;
 		border-radius: 30px;
 		border: none;
-		margin: auto;
+		margin: auto auto 5rem auto;
 		color: #fef3e0;
 		background: #f15923;
 		width: 50%;
